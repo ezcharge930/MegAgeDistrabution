@@ -108,6 +108,8 @@ class PatientAgeAnalyzer:
 
         return self
     
+    
+    
     def generate_report(self,output_path=data_dir / 'reports.txt'):
         
         from datetime import datetime
